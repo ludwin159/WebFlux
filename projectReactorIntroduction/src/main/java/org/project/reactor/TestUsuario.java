@@ -14,7 +14,7 @@ public class TestUsuario {
                     String upper = name.toUpperCase();
                     return new Usuario(upper.split(" ")[0],upper.split(" ")[1]);
                 })
-                .filter(usuario -> usuario.getName().equalsIgnoreCase("Ludwin"))
+                .filter(usuario -> !usuario.getName().equalsIgnoreCase("Ludwin"))
                 .doOnNext(usuario -> {
                     if (usuario == null) {
                         throw  new RuntimeException("Los nombres no pueden estar vacios");
