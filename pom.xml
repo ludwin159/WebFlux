@@ -53,6 +53,11 @@
 
 	<modules>
 		<module>projectReactorIntroduction</module>
+		<module>contrapresion.examples</module>
+		<module>transformacion-y-convinacion-de-flujos</module>
+		<module>exception.handle</module>
+		<module>cold.hot.publisher</module>
+		<module>api-rest-reactiva-anotaciones</module>
 	</modules>
 
 	<build>
