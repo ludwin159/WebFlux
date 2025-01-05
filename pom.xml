@@ -35,15 +35,6 @@
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
 <!--		</dependency>-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 <!--		<dependency>-->
 <!--			<groupId>io.projectreactor</groupId>-->
 <!--			<artifactId>reactor-test</artifactId>-->
@@ -53,11 +44,11 @@
 
 	<modules>
 		<module>projectReactorIntroduction</module>
-		<module>contrapresion.examples</module>
 		<module>transformacion-y-convinacion-de-flujos</module>
 		<module>exception.handle</module>
 		<module>cold.hot.publisher</module>
 		<module>api-rest-reactiva-anotaciones</module>
+		<module>pruebas-step-verifier</module>
 	</modules>
 
 	<build>
