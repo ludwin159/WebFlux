@@ -49,6 +49,7 @@
 		<module>cold.hot.publisher</module>
 		<module>api-rest-reactiva-anotaciones</module>
 		<module>pruebas-step-verifier</module>
+		<module>reactividad.mongodb</module>
 	</modules>
 
 	<build>
