@@ -16,8 +16,8 @@ public class ContactHandle {
     @Autowired
     private ContactRepository contactRepository;
 
-    private Mono<ServerResponse> response404 = ServerResponse.notFound().build();
-    private Mono<ServerResponse> response406 = ServerResponse.status(HttpStatus.ACCEPTED).build();
+    private final Mono<ServerResponse> response404 = ServerResponse.notFound().build();
+    private final Mono<ServerResponse> response406 = ServerResponse.status(HttpStatus.ACCEPTED).build();
 
     // Listar Contactos
     public Mono<ServerResponse> listContacts(ServerRequest request) {

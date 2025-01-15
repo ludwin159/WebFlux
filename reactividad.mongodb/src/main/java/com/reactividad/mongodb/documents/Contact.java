@@ -17,37 +17,42 @@ public class Contact {
         this.email = email;
         this.phone = phone;
     }
+    public Contact() {}
 
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public Contact setId(String id) {
         this.id = id;
+        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Contact setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public Contact setEmail(String email) {
         this.email = email;
+        return this;
     }
 
     public String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public Contact setPhone(String phone) {
         this.phone = phone;
+        return this;
     }
 
     @Override
